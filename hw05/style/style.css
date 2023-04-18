@@ -1,0 +1,164 @@
+body
+    {
+        margin: 0 auto;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        background: rgba(28, 82, 221, 0.56);
+        
+    }
+
+.header
+    {
+        margin: 0 auto;
+        display: inline-block;
+        padding: 64px 0px;
+        width: 1600px;
+    }
+
+.content
+    {
+        margin: 0px 45px 0px 103px;
+        display: inline-block;
+        width: 1452px;
+    }  
+
+.logo-header
+    {   
+        margin: 0px 285px -4px 0px;
+        padding: 0;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+    }
+    
+.menu-header
+    {
+        display: inline-block;
+        width: fit-content;
+        text-align: right;
+        vertical-align: top;
+    }    
+
+.menu-header-text
+    {
+        display: inline-block;
+        width: fit-content;
+        margin: 0px 10px 0px 0px;
+
+    }    
+
+.menu-header-text h4
+    {
+        display: inline-block;
+        padding: 0;
+        margin: 0px 29px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        color: #EBEBEB;
+    }
+    
+.button-header
+    {
+        margin: 0;
+        display: inline-block;
+        padding: 14.5px 34px;
+        border: none;
+        border-radius: 13px;
+        background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%); 
+    }    
+
+
+.content-right
+    {
+        margin: 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+.content-left
+    {
+        margin: 0;
+        display: inline-block;
+        width: 613px;
+    }
+
+#h1-left
+    {
+        padding: 145px 0px 8px;
+    }
+
+.content-left h1
+    {
+        text-align: left;
+        vertical-align: top;
+        width: 511px;
+        height: 164px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 82px;
+        color: #FFFFFF;
+    }
+
+
+
+h2
+    {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        color: #E5E5E5;
+    }
+
+
+.button-body
+    {
+        margin: 0;
+        display: inline-block;
+        padding: 22px 66px;
+        border: none;
+        border-radius: 13px;
+        background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%); 
+    }
+
+#h2-button
+    {
+       width: 146px;
+    
+    }
+
+#h2-left
+    {
+        padding: 0px 0px 55px;
+    } 
+
+#main
+    {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 35px;
+
+        color: #FFFFFF;
+    }    
+
+#button-header-text
+    {
+        height: 28px;
+        width: 92px;
+        margin: 0;
+        padding: 2px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #E5E5E5;
+    }
