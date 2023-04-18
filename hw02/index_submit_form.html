@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=440, initial-scale=1.0">
+    <title>submit_form</title>
+</head>
+<body style="background-color: lightyellow;">
+<br>
+<!-- <iframe frameborder="1" 
+        width="340"
+        height="540">
+</iframe> -->
+<fieldset style="width: 240px; background-color:  lightgoldenrodyellow;">
+    <div>
+        <label for="main_data">
+        <h3>Загальні дані</h3>
+        </label>
+    </div>
+    <div>
+        <form>
+                <label for="sirname">
+                    Прізвище
+                </label>
+                <br>
+                <input type="text" id="sirname" placeholder="введіть Прізвище" style="height: 30px; width: 230px; background-color: lightgrey;"> 
+        </form>
+    </div>
+    <br>
+    
+    <div>
+        <form>
+            <label for="name">
+                Ім'я
+            </label>
+            <br>
+            <input type="text" id="name" placeholder="введіть Ім'я" style="height: 30px; width: 230px; background-color: lightgrey;">
+        </form>
+    </div>
+    <br>
+    <div>
+        <Form>
+            <label for="patrnymic">
+                Побатькові
+            </label>
+            <br>
+            <input type="text" id="patrnymic" placeholder="введіть Побатькові" style="height: 30px; width: 230px; background-color: lightgrey;">
+        </Form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <Label for="byrthday">
+                Дата народження
+            </Label>
+            <br>
+            <input type="date" id="byrthday" style="height: 32px; width: 232px; background-color: lightgrey;">
+        </form>
+    </div>
+    <br>
+</fieldset>
+
+<br>
+
+<fieldset id="adress" style="width: 240px; background-color: lightgoldenrodyellow;">
+    <div>
+    <Label for="title">
+        <h3>Адреса <br> постійного / тимчасового <br> місця реєстрації </h3>
+    </Label>
+    </div>
+    <div>
+        <form action="place choice">
+            <div><label for="place">
+            місце проживання
+            </label>
+            <br>
+            <input type="radio" name="choice" value="За тимчасовим місцем проживання як ВПО">
+            За тимчасовим місцем <p style="margin-left: 25px; margin-top: 0px; margin-bottom: 0px;"> проживання як ВПО </p>
+            <input type="radio" name="choice" value="За зареєстрованим місцем проживання">
+            За зареєстрованим місцем <p style="margin-left: 25px; margin-top: 0px; margin-bottom: 0px;"> проживання </p> 
+            <input type="radio" name="choice" value="За іншою адресою">
+            За іншою адресою
+            </div>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <label>
+            Країна
+            </label>
+            <br>
+            <select tyle="height: 35px; width: 240px; background-color: lightgrey;">
+                <option selected value="001"> виберіть зі списку </option>
+                <option value="002">list</option>
+                <option value="003">list</option>
+                <option value="004">list</option>
+                <option value="005">list</option>
+                <option value="006">list</option>
+            </select>
+            <br>
+
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <label>
+            Область / регіон
+            </label>
+            <br>
+            <select style="height: 35px; width: 240px; background-color: lightgrey;">
+                <option selected value="001"> виберіть зі списку </option>
+                <option value="002">list</option>
+                <option value="003">list</option>
+                <option value="004">list</option>
+                <option value="005">list</option>
+                <option value="006">list</option>   
+            </select>
+            <br>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <label>
+            Місто
+            </label>
+            <br>
+            <select style="height: 35px; width: 240px; background-color: lightgrey;">
+                <option selected value="001"> виберіть зі списку </option>
+                <option value="002">list</option>
+                <option value="003">list</option>
+                <option value="004">list</option>
+                <option value="005">list</option>
+                <option value="006">list</option>   
+            </select>
+            <br>
+        </form>
+    </div>
+
+    <br>
+    <div>
+        <form>
+            <label for="zipcode">
+                Поштовий індекс
+            </label>
+            <br>
+            <input type="text" minlength="5" maxlength="6" id="zipcode" placeholder="000000" style="height: 30px; width: 90px; background-color: lightgrey;">
+        </form>
+    </div>
+
+    <br>
+    <div>
+        <form>
+            <label>
+            Вулиця
+            </label>
+            <br>
+            <select style="height: 35px; width: 240px; background-color: lightgrey;">
+                <option selected value="001"> виберіть зі списку </option>
+                <option value="002">list</option>
+                <option value="003">list</option>
+                <option value="004">list</option>
+                <option value="005">list</option>
+                <option value="006">list</option>   
+            </select>
+            <br>
+        </form>
+    </div>
+
+    <br>
+    <div>
+        <form>
+            <label>
+            Будинок
+            </label>
+            <br>
+            <select style="height: 35px; width: 96px; background-color: lightgrey;">
+                <option selected value="001"> 00 </option>
+                <option value="002">list</option>
+                <option value="003">list</option>
+                <option value="004">list</option>
+                <option value="005">list</option>
+                <option value="006">list</option>   
+            </select>
+            <br>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <label>
+            Квартира
+            </label>
+            <br>
+            <select style="height: 35px; width: 96px; background-color: lightgrey;">
+                <option selected value="001"> 00 </option>
+                <option value="002">list</option>
+                <option value="003">list</option>
+                <option value="004">list</option>
+                <option value="005">list</option>
+                <option value="006">list</option>   
+            </select>
+            <br>
+        </form>
+    </div>
+    <br>
+</fieldset>
+
+<br>
+
+<fieldset id="passport" style="width: 240px; background-color: lightgoldenrodyellow;">
+    <div>
+        <label for="title"> 
+            <h3> Паспортні дані </h3>
+        </label>
+    </div>
+    <div>
+        <form>
+            <label for="title"> стать </label>
+            <br>
+            <input type="radio" name="gender" value="Жіноча"> Жіноча
+            <br>
+            <input type="radio" name="gender" value="Чоловіча"> Чоловіча
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <label for="title">
+                Серія, номер паспорту / ID
+            </label>
+            <br>
+            <input type="text" style="height: 30px; width: 120px; background-color: lightgray;" placeholder="AA 000 000" maxlength="8" minlength="8">
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <label>
+            Ким вмданий
+            </label>
+            <br>
+            <select style="height: 35px; width: 240px; background-color: lightgrey;">
+                <option selected value="001"> виберіть зі списку </option>
+                <option value="002">list</option>
+                <option value="003">list</option>
+                <option value="004">list</option>
+                <option value="005">list</option>
+                <option value="006">list</option>   
+            </select>
+            <br>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <label for="title">
+                Дата видачі
+            </label>
+            <br>
+            <input type="date" style="height: 35px; width: 235px; background-color: lightgray;">
+        </form>
+    </div>
+    <br>
+</fieldset>
+
+<br>
+
+<fieldset style="width: 240px; background-color: lightgoldenrodyellow;">
+    <div>
+        <label for="title">
+            <H3>Дані про сім'ю</H3>
+        </label>
+    </div>
+    <div>
+        <form>
+            <label for="title">
+                Сімейний стан
+            </label>
+            <div>
+                <input type="radio" name="married" value="Одружений"> Одружений
+            </div>
+            <div>
+                <input type="radio" name="married" value="Неодружений"> Неодружений
+            </div>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <label for="title">
+                Діти
+            </label>
+            <div>
+                <input type="radio" name="kids" value="Немає"> Немає
+            </div>
+            <div>
+                <input type="radio" name="kids" value="Один"> Один
+            </div>
+            <div>
+                <input type="radio" name="kids" value="Два"> Два
+            </div>
+            <div>
+                <input type="radio" name="kids" value="Три та більше"> Три та більше
+            </div>
+        </form>
+    </div>
+
+</fieldset>
+
+<br>
+
+<fieldset style="width: 240px; background-color: lightgoldenrodyellow;">
+    <div>
+        <label for="title">
+            <h3>Освіта та робота</h3>
+        </label>
+    </div>
+    <div>
+        <form>
+            <label for="title">
+                Освіта
+            </label>
+            <br>
+            <div>
+                <input type="radio" name="education" value="Початкова"> Початкова        
+            </div>
+            <div>
+                <input type="radio" name="education" value="Середня"> Середня        
+            </div>
+            <div>
+                <input type="radio" name="education" value="Вища"> Вища        
+            </div>
+        </form>
+    </div>
+    <br>
+    <Div>
+        <Form>
+            <Label for="title">
+                Місце роботи
+            </Label>
+            <br>
+            <div>
+                <input type="text" style="height: 30px; width: 230px; background-color: lightgray"; placeholder="введіть місце роботи">
+            </div>
+        </Form>
+    </Div>
+    <br>
+
+
+    <div>
+        <form>
+            <label for="title">
+                Тип зайнятості
+            </label>
+            <div>
+                <input type="radio" name="job" value="Повна"> Повна
+            </div>
+            <div>
+                <input type="radio" name="job" value="Неповна"> Неповна
+            </div>
+        </form>
+    </div>
+    <br>
+
+    <div>
+        <form>
+            <Label for="title">
+                Середній дохід на місяць
+            </Label>
+            <br>
+            <div>
+                <select name="revenue" style="height: 30px; width: 235px; background-color: lightgray;">
+                    <option selected value="001">До 8000 грн.</option>
+                    <option value="002">Від 8000 до 15000 грн.</option>
+                    <option value="003">Від 15000 до 30000 грн.</option>
+                    <option value="004">Від 30000 до 60000 грн.</option>
+                    <option value="005">Від 60000 до 100000 грн.</option>
+                    <option value="006">Від 100000 грн. та вище</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <br>
+
+    <div>
+        <Label>
+            Платіжна система
+        </Label>
+        <br>
+        <button>
+            <img src="icon_mastercard.svg" alt="Кнопка «button»" style="height: 18px; width: 36px;">
+        </button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button>
+            <img src="icon_paypal.svg" alt="Кнопка «button»" style="height: 18px; width: 36px;">
+        </button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button>
+            <img src="icon_visa.svg" alt="Кнопка «button»" style="height: 18px; width: 36px;">
+        </button>
+    </div>
+    <br>
+
+</fieldset>
+
+<br>
+
+<fieldset style="width: 240px; background-color: lightgoldenrodyellow;">
+    <div>
+        <label for="title">
+            <h3>Конактні дані</h3>
+        </label>
+    </div>
+    <div>
+        <form>
+            <label for="title">
+                Email
+            </label>
+            <br>
+            <div>
+                <input type="email" style="height: 30px; width: 230px; background-color: lightgray;" placeholder="example@gmail.com">
+            </div>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <label for="title">
+                Телефон
+            </label>
+            <div>
+                <input type="tel" style="height: 30px; width: 230px; background-color: lightgray;" src="flag_ua.png" placeholder="+38 (000) 000 00 00"> 
+            </div>  
+        </form>
+    </div>
+    <br>
+
+</fieldset>
+
+<br>
+
+<fieldset style="width: 240px; background-color: lightgoldenrodyellow;">
+    <div>
+        <label for="title">
+            <h3>Кредитний ліміт</h3>
+        </label>
+    </div>
+    <div>
+        <form>
+            <label>
+                Сума кредиту
+            </label>
+            <div>
+                <input type="text" style="height: 30px; width: 230px; background-color: lightgrey;" placeholder="Від 100 до 100000 грн." minlength="3" maxlength="6">
+            </div>
+        </form>
+    </div>
+</fieldset>
+<br>
+<div style="width: 260px;">
+    <center>
+        <button style="height: 30px; width: 150px; background-color: lightskyblue;">
+            Надіслати запит
+        </button>
+    </center>
+</div>
+</body>
+</html>
