@@ -4,54 +4,61 @@ body
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         box-sizing: border-box;
         background: rgba(28, 82, 221, 0.56);
+        width: 1600px;
+        height: 1024px;
         
     }
 
 .header
     {
-        margin: 0 auto;
+        margin: 0;
         display: inline-block;
-        padding: 64px 0px;
-        width: 1600px;
+        padding: 58px 0px 64px 0;
+
+
     }
 
 .content
     {
         margin: 0px 45px 0px 103px;
-        display: inline-block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
         width: 1452px;
+        /* background-color: aqua; */
     }  
+
+    
 
 .logo-header
     {   
-        margin: 0px 285px -4px 0px;
+        margin: 0;
         padding: 0;
-        display: inline-block;
-        text-align: left;
-        vertical-align: top;
     }
     
 .menu-header
     {
-        display: inline-block;
-        width: fit-content;
-        text-align: right;
-        vertical-align: top;
+        display: flex;
+        justify-content: space-between;
+        width: 809px;
+        align-items: center;
     }    
 
 .menu-header-text
     {
-        display: inline-block;
-        width: fit-content;
-        margin: 0px 10px 0px 0px;
+        display: flex;
+        justify-content: space-between;
+
+        width: 606px;
+        margin: 0px 39px 0px 0px;
 
     }    
 
 .menu-header-text h4
     {
-        display: inline-block;
         padding: 0;
-        margin: 0px 29px;
+        margin: 0;
         font-style: normal;
         font-weight: 500;
         font-size: 30px;
@@ -63,6 +70,8 @@ body
     {
         margin: 0;
         display: inline-block;
+        width: 164px;
+        height: 61px;
         padding: 14.5px 34px;
         border: none;
         border-radius: 13px;
@@ -73,28 +82,27 @@ body
 .content-right
     {
         margin: 0;
-        display: inline-block;
-        vertical-align: top;
+        /* background-color: brown; */
+    
     }
 
 .content-left
     {
         margin: 0;
-        display: inline-block;
-        width: 613px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: chocolate; */
+
     }
 
-#h1-left
-    {
-        padding: 145px 0px 8px;
-    }
 
 .content-left h1
     {
+        display: inline-block;
+        /* width: 530px; */
+        padding: 145px 0px 8px;
         text-align: left;
         vertical-align: top;
-        width: 511px;
-        height: 164px;
         font-style: normal;
         font-weight: 600;
         font-size: 70px;
@@ -122,6 +130,7 @@ h2
         margin: 0;
         display: inline-block;
         padding: 22px 66px;
+        width: fit-content;
         border: none;
         border-radius: 13px;
         background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%); 
@@ -129,7 +138,10 @@ h2
 
 #h2-button
     {
-       width: 146px;
+        display: inline-block;
+        margin: 0;
+        padding: 0; 
+        width: 142px;
     
     }
 
