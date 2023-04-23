@@ -4,23 +4,21 @@ body
         font-family: "Roboto", Arial, Helvetica, sans-serif;
         box-sizing: border-box;
         background: rgba(28, 82, 221, 0.56);
-        width: 1600px;
-        height: 1024px;
-        
+     
     }
 
 .header
     {
-        margin: 0;
-        display: inline-block;
+        margin: 0 auto;
         padding: 58px 0px 64px 0;
 
 
     }
 
 .content
-    {
-        margin: 0px 45px 0px 103px;
+    {   
+        margin: 0 auto;
+        padding: 0px 45px 0px 103px;
         display: flex;
         justify-content: space-between;
         align-items: center;
