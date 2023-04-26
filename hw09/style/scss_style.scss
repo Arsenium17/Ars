@@ -1,0 +1,104 @@
+$background-color: #0A0171;
+$width: 335px;
+$height: 58px;
+$font-size: 14px;
+$line-height: $font-size + 3px;
+$text-color: white;
+$border-radius: 20px; 
+
+
+@mixin stroke{
+    border: 1px solid $text-color;
+    box-sizing: border-box;
+}
+
+@mixin input-field{
+    display: block;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+    background-color: $background-color;
+
+}
+
+
+
+body{
+    background: linear-gradient(180deg, #92DDC2 0%, #544E94 100%);
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    color: $text-color;
+
+
+ 
+
+
+}
+
+section{
+    margin: 0 auto;
+    width: 375px;
+    height: 667px;
+    top: 50vh;
+    background-color: $background-color;
+    box-shadow: 30px 30px 35px rgba(10, 1, 113, 0.3);
+    text-align: center;
+    border-radius: $border-radius + 10px;
+    @include stroke;
+
+
+    div{
+        // margin-top: 92px;
+        padding: 92px 0 0 0;
+    }    
+    h1{
+        
+        font-size: $font-size + 6px;
+        line-height: $line-height + 6px;
+        margin: 51px 0px 27px 0px;
+        
+    }
+    p{
+        margin-bottom: 24px;
+    }
+
+    input{
+        // display: inline-block;
+        margin: auto;
+        font-size: $font-size;
+        line-height: $line-height;
+        margin-bottom: 16px;
+        @include stroke;
+        @include input-field;
+       
+
+        &::placeholder{
+            display: inline-block;
+            padding-left: $border-radius;
+            color: $text-color;
+            
+        }
+    }
+
+    button{
+        display: block;
+        margin: auto;
+        text-align: center;
+        vertical-align: auto;
+        @include input-field;
+        background-color: #2BC990;
+        border: none;
+        margin-top: 20px;
+
+        h2{
+            font-size: $font-size + 6px;
+            line-height: $line-height + 6px;
+            color: $text-color;
+        
+        }
+
+    }
+
+}
