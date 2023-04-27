@@ -29,17 +29,11 @@ $button-color: #2BC990;
 body{
     background: linear-gradient(180deg, #92DDC2 0%, #544E94 100%);
     margin: auto;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
     font-family: Raleway, Arial, Helvetica, sans-serif;
     color: $text-color;
     display: flex;
     align-items: center;
-
-
- 
-
-
 }
 
 section{
@@ -55,7 +49,6 @@ section{
 
 
     div{
-        // margin-top: 92px;
         padding: 92px 0 0 0;
     }    
     h1{
@@ -70,7 +63,6 @@ section{
     }
 
     input{
-        // display: inline-block;
         margin: auto;
         font-size: $font-size;
         line-height: $line-height;
@@ -89,10 +81,8 @@ section{
     }
 
     button{
-        // display: block;
         margin: auto;
         text-align: center;
-        // vertical-align: auto;
         @include input-field;
         background-color: $button-color;
         border: none;
@@ -109,9 +99,6 @@ section{
             background: color.adjust($button-color, $lightness: -10%);
             box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.3);
             cursor: pointer;
-
-
-        
         }
 
         &:focus{
