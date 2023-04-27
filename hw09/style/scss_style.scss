@@ -74,11 +74,12 @@ section{
         margin-bottom: 16px;
         @include stroke;
         @include input-field;
+        padding-left: $border-radius;
+        color: $text-color;
        
 
         &::placeholder{
             display: inline-block;
-            padding-left: $border-radius;
             color: $text-color;
             
         }
