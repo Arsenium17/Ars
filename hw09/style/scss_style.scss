@@ -25,11 +25,13 @@ $border-radius: 20px;
 
 body{
     background: linear-gradient(180deg, #92DDC2 0%, #544E94 100%);
-    margin: 0 auto;
+    margin: auto;
     height: 100vh;
     width: 100vw;
     font-family: Raleway, Arial, Helvetica, sans-serif;
     color: $text-color;
+    display: flex;
+    align-items: center;
 
 
  
@@ -38,7 +40,7 @@ body{
 }
 
 section{
-    margin: 0 auto;
+    margin: auto;
     width: 375px;
     height: 667px;
     top: 50vh;
