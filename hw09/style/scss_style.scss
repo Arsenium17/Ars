@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 $background-color: #0A0171;
 $width: 335px;
 $height: 58px;
@@ -5,6 +7,7 @@ $font-size: 14px;
 $line-height: $font-size + 3px;
 $text-color: white;
 $border-radius: 20px; 
+$button-color: #2BC990; 
 
 
 @mixin stroke{
@@ -13,7 +16,7 @@ $border-radius: 20px;
 }
 
 @mixin input-field{
-    display: block;
+    // display: block;
     width: $width;
     height: $height;
     border-radius: $border-radius;
@@ -86,12 +89,12 @@ section{
     }
 
     button{
-        display: block;
+        // display: block;
         margin: auto;
         text-align: center;
-        vertical-align: auto;
+        // vertical-align: auto;
         @include input-field;
-        background-color: #2BC990;
+        background-color: $button-color;
         border: none;
         margin-top: 20px;
 
@@ -102,6 +105,23 @@ section{
         
         }
 
+        &:hover{
+            background: color.adjust($button-color, $lightness: -10%);
+            box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.3);
+            cursor: pointer;
+
+
+        
+        }
+
+        &:focus{
+            background: color.adjust($button-color, $hue: +30%);
+            border-width: 1px;
+            border-style: solid;
+            border-color: $text-color;
+            box-shadow: inset 5px 5px 5px rgba($color: #000000, $alpha: 0.3);       }
+
     }
 
 }
+
